@@ -1,0 +1,35 @@
+#chat{
+	background:rgba(255,255,255,0.5);
+	width:800px;
+
+	padding:0.5em 0;
+	z-index:999;
+	position:absolute;
+	bottom:0;
+	left:240px;
+}
+
+#chat ul{
+	margin:0;
+	padding:0;
+}
+
+#chat p, #chat li{
+	margin:0;    	
+	padding:0 0.5em;
+	cursor:pointer;   
+	text-decoration:underline;
+	color:blue;
+	min-height:50px;
+	list-style-type:none;
+}
+
+#chat .医生{
+	background:url(./web/images/doctor-portrait.svg) no-repeat 0 0;
+	padding-left:55px;
+}
+
+ #chat .我{
+	background:url(./web/images/me-portrait.svg) no-repeat 0 0;
+	padding-left:55px;
+}
